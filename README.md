@@ -108,3 +108,8 @@ Removing all images:
 ```
 docker rmi $(docker images -q)
 ```
+
+Cleaning docker build cache:
+```
+docker builder prune
+```
